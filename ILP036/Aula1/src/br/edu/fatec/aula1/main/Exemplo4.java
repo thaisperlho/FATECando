@@ -14,7 +14,7 @@ public class Exemplo4 {
 		else  
 	                      System.out.println("Reprovado!!!");
 
-
+		entrada.close();
 	}
 
 }
