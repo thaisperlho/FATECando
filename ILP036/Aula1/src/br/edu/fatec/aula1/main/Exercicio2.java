@@ -27,7 +27,7 @@ public class Exercicio2 {
 			area = (base * altura) / 2;
 			System.out.println("Area do triangulo é = " + area);
 		}
-		
+		entrada.close();
 	}
 
 }

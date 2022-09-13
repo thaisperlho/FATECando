@@ -22,5 +22,6 @@ public class Exercicio6 {
 		else {
 			System.out.println("O número maior é  " + n2);
 		}
+		entrada.close();
 	}
 }

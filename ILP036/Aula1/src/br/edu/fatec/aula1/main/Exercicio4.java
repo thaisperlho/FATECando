@@ -29,6 +29,7 @@ public class Exercicio4 {
 		default:
 			System.out.println("Você escolheu uma opção incorreta");
 		}
+		entrada.close();
 	}
 
 }

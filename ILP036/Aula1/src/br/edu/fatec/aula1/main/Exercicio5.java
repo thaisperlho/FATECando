@@ -16,6 +16,7 @@ public class Exercicio5 {
 		produto = n1 * n2 * n3;
 		System.out.println("O produto dos numeros é " + produto);
 
+		entrada.close();
 	}
 
 }

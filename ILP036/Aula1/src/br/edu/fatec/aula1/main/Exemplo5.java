@@ -19,7 +19,7 @@ public class Exemplo5 {
 	 	         System.out.println("Você foi aprovado!");    
 	              }  
 
-
+		entrada.close();
 	}
 
 }

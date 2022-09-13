@@ -29,5 +29,6 @@ public class Principal {
 			System.out.println("Digite 1: Cadastrar Doce \n 2: Imprimir \n 3:Sair");
 			opcao = input.nextInt();
 		}
+		input.close();
 	}
 }

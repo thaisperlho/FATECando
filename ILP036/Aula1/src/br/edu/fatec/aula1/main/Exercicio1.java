@@ -13,6 +13,7 @@ public class Exercicio1 {
 	   	     System.out.println("Você é muito rico!");    
 		else  
 	         System.out.println("Trabalhe mais abestado!!!");
+		entrada.close();
 	}
 
 }

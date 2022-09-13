@@ -39,6 +39,7 @@ public class Principal {
 			break;
 		default:
 			System.out.println("Você escolheu uma opção incorreta");
-		}		
+		}	
+		input.close();	
 	}
 }
