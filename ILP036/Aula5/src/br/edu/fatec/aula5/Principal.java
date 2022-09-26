@@ -12,7 +12,7 @@ public class Principal {
 		NaveEspacial nave2 = new NaveEspacial(input.next());
 		
 		nave.combaterNaveInimiga(nave2);
-
+		input.close();
 	}
 
 }

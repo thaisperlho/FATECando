@@ -40,7 +40,6 @@ public class Principal {
 			System.out.println("Digite \n 1: Cadastrar Livro \ud83d\udcda \n 2: Cadastrar DVD \ud83d\udcc0 \n 3: Imprimir \ud83d\udda8 \n 4: Encerrar ");
 			opcao = input.nextInt();
 		}
-
+		input.close();
 	}
-
 }
