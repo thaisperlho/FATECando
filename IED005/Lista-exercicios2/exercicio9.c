@@ -2,16 +2,16 @@
 
 int main()
 {
-    int x = 10;
-    int y = 20;
+    int x = 1000;
+    int y = 200;
 
-    int *pX = &x;
     int *pY = &y;
-
+    int *pX = &x;
+    
     if(pX > pY){
-        printf("Endereço da variavel x = %i, é maior que y = %i", pX, pY);
+        printf("Endereço da variavel x = %p, é maior que y = %i", pX, pY);
     }else{
-        printf("Endereço da variavel Y = %i, é maior que x = %i", pY, pX);
+        printf("Endereço da variavel Y = %p, é maior que x = %i", pY, pX);
     }
     return 0;
 }
