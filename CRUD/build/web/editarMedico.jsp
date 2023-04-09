@@ -27,7 +27,7 @@
     <body>
         <nav class="navbar navbar-expand-lg bg-body-tertiary">
           <div class="container-fluid">
-            <a class="navbar-brand" href="index.jsp">Navbar</a>
+            <a class="navbar-brand" href="index.jsp">Voltar</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
@@ -41,8 +41,6 @@
                     <li><a class="dropdown-item" href="criarAgendamento.jsp">Novo</a></li>
                     <li><a class="dropdown-item" href="listarAgendamento.jsp">Listar</a></li>
                     <li><a class="dropdown-item" href="editarAgendamento">Buscar</a></li>
-                    <!--<li><hr class="dropdown-divider"></li>
-                    <li><a class="dropdown-item" href="excluirAgendamento.jsp">Excluir</a></li>-->
                   </ul>
                 </li>
                 <li class="nav-item dropdown">
@@ -52,6 +50,7 @@
                   <ul class="dropdown-menu">
                     <li><a class="dropdown-item" href="cadMedico.jsp">Cadastrar</a></li>
                     <li><a class="dropdown-item" href="listarMedico.jsp">Listar</a></li>
+                    <li><a class="dropdown-item" href="buscarMedico.jsp">Buscar</a></li>
                   </ul>
                 </li>
                 <li class="nav-item dropdown">
@@ -61,6 +60,7 @@
                   <ul class="dropdown-menu">
                     <li><a class="dropdown-item" href="cadPaciente.jsp">Cadastrar</a></li>
                     <li><a class="dropdown-item" href="listarPaciente.jsp">Listar</a></li>
+                    <li><a class="dropdown-item" href="buscarPaciente.jsp">Buscar</a></li>
                   </ul>
                 </li>
               </ul>

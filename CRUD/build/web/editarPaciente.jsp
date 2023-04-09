@@ -24,7 +24,7 @@
     
         <title>Editar Usuário</title>
     </head>
-    <body>
+    <body style="background-color: #B8E8F4">
         <nav class="navbar navbar-expand-lg bg-body-tertiary">
           <div class="container-fluid">
             <a class="navbar-brand" href="index.jsp">Navbar</a>
